@@ -1,0 +1,20 @@
+.navigation .row{
+    text-align: center;
+    height: 50px;
+}
+
+.navbar-link{
+    color: black;
+    padding-top: 12px;
+    text-decoration: none;
+}
+.navbar-col{
+    margin: auto;
+}
+
+.navbar-link:hover{
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+    font-weight: bold;
+}
