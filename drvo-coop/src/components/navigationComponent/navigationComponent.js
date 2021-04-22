@@ -1,19 +1,24 @@
 import react from 'react';
 import '../navigationComponent/navigationComponent.css'
-import {Link} from 'react-router-dom';
 
 
 function NavigationComponent() {
 
 
     return(
-        <div className="navigation bg-warning">
-            <div className="row">
-                <div className="col col-4 navbar-col"><Link to="/" className="navbar-link">Home</Link></div>
-                <div className="col col-4 navbar-col"><Link to="/products" className="navbar-link">Products</Link></div>
-                <div className="col col-4 navbar-col"><Link to="/about" className="navbar-link">About us</Link></div>
+        <nav className="navbar navbar-expand-lg navbar-light bg-warning">
+            <a className="navbar-brand" href="#">Drvo-Coop</a>
+            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span className="navbar-toggler-icon"></span>
+            </button>
+            <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <ul class="navbar-nav ml-auto">
+                <li className="nav-item nav-link active">Početna<span class="sr-only">(current)</span></li>
+                <li className="nav-item nav-link">Proizvodi</li>
+                <li className="nav-item nav-link">O nama</li>
+                </ul>
             </div>
-        </div>
+        </nav>
     )
 }
 

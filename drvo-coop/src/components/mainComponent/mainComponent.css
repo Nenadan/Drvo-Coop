@@ -1,6 +1,7 @@
 .main{
     background-image: url('../../assets/home_wallpaper.jpg');
     background-repeat: no-repeat;
-    background-size:100%;
+    background-attachment: fixed;
+    background-size:cover;
     height: 1100px;
 }
