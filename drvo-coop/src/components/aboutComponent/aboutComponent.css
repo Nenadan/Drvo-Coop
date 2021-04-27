@@ -1,0 +1,49 @@
+#about{
+    margin: 100px;
+    text-align: center;
+}
+.paun{
+    display: inline-block;
+    margin-right: 10%;
+    background-color: gray;
+    height: 300px;
+    overflow: hidden;
+    
+}
+.vlade{
+    display: inline-block;
+    margin-left: 10%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.show{
+    transition: 0.5s;
+    transform: translateY(-110px);
+}
+.hide{
+    transition: 0.5s;
+    transform: translateY(0px);
+}
+
+.paun-info{
+    text-align: left;
+    background-color: rgba(255, 254, 254, 0.555);
+    font-weight: bold;
+    height: 110px;
+}
+.vlade-info{
+    text-align: left;
+    background-color: rgba(255, 254, 254, 0.555);
+    font-weight: bold;
+    height: 110px;
+}
+.about-text{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: left;
+}
+.location{
+    background-image: url('../../assets/aboutfooter.jpg');
+    width: auto;
+}

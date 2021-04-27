@@ -12,6 +12,7 @@ function App() {
         <NavigationComponent/>
         <MainComponent/>
         <AboutComponent/>
+
       </div>
     {/*<Route exact path="/about/" component={AboutComponent}/> */}
     {/*<Route exact path="/" component = {MainComponent}/> */}    

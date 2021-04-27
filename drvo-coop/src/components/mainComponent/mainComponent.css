@@ -5,3 +5,20 @@
     background-size:cover;
     height: 1100px;
 }
+
+.we-are{
+    background-color: rgba(128, 128, 128, 0);
+    color: white;
+    border-style: solid;
+    border-color: white;
+}
+
+.we-are:hover{
+    transition: 0.5s;
+    border-color: black;
+    color: black;
+    background-color: #ffc107;
+}
+.banner-image{
+    margin-top: 200px;
+}

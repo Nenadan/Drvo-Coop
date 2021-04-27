@@ -15,7 +15,7 @@ function NavigationComponent() {
                 <ul class="navbar-nav ml-auto">
                 <li className="nav-item nav-link active">Početna<span class="sr-only">(current)</span></li>
                 <li className="nav-item nav-link">Proizvodi</li>
-                <li className="nav-item nav-link">O nama</li>
+                <li className="nav-item nav-link"><a href="#about" className="anchor-link">O nama</a></li>
                 </ul>
             </div>
         </nav>
